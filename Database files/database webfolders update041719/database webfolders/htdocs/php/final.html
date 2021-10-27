@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+	Philip McLane
+	WEB 114 Final
+	JavaScript Quiz: styles.css
+	05/03/2018
+-->
+<html lang="en">
+	<head>
+		<title>WEB 114: JavaScript Final</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="../styles/styles.css" media="screen">
+	</head>
+	
+	<body>
+		<div id="innerbody">
+		<div id="top"></div>
+			<header>
+				<h1>JavaScript Quiz</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li><a href="final.html">Quiz</a></li>
+					<li><a href="credits.html">Credits</a></li>
+				</ul>
+			</nav>
+			<div id="scoreboard">Current Score: 0</div>
+			
+			<main>
+				<ol>
+					<li id="q0" class="question"><span id="l0">First question here</span>
+						<ol>
+							<li><input id="checkbox0" type="checkbox" name="checkbox0" value=1000><label for="checkbox0" id="ca0" class="qa0">First answer here</label></li>
+							<li><input id="checkbox1" type="checkbox" name="checkbox1" value=100><label for="checkbox1" id="ca1" class="qa1">Second answer here</label></li>
+							<li><input id="checkbox2" type="checkbox" name="checkbox2" value=10><label for="checkbox2" id="ca2" class="qa2">Third answer here</label></li>
+							<li><input id="checkbox3" type="checkbox" name="checkbox3" value=1><label for="checkbox3" id="ca3" class="qa3">Fourth answer here</label></li>
+							<li class="listbutton"><input type="button" id="button0" value="Save answer"></li>
+						</ol>
+					</li>
+					<li id="q1" class="question"><span id="l1">Second question here</span>
+						<ol>
+							<li><input id="radio0" type="radio" name="radioQuestion" value=1000><label for="radio0" id="ra0" class="qa0">First answer here</label></li>
+							<li><input id="radio1" type="radio" name="radioQuestion" value=100><label for="radio1" id="ra1" class="qa1">Second answer here</label></li>
+							<li><input id="radio2" type="radio" name="radioQuestion" value=10><label for="radio2" id="ra2" class="qa2">Third answer here</label></li>
+							<li><input id="radio3" type="radio" name="radioQuestion" value=1><label for="radio3" id="ra3" class="qa3">Fourth answer here</label></li>
+							<li class="listbutton"><input type="button" id="button1" value="Save answer"></li>
+						</ol>
+					</li>
+					<li id="q2" class="question"><span id="l2">Third question here</span>
+						<ul>
+							<li><input id="userAnswer" type="text" value=""></li>
+							<li id="textAnswer"></li>
+							<li class="listbutton"><input type="button" id="button2" value="Save answer"></li>
+						</ul>
+					</li>
+				</ol>
+				<input type="button" id="nextPage" value="Next Page">
+				<div id="finalScore"></div>
+			<div id="tictactoe"></div>
+			</main>
+			
+			<footer><a href="#top">Return to top</a></footer>
+		</div>
+		<script src="../script/final.js"></script>
+	</body>
+</html>
